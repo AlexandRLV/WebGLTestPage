@@ -1,0 +1,903 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GG.Framework.FrameworkCommandsInstaller" preserve="all" />
+    <type fullname="GG.Framework.Installers.FrameworkStaticsInstaller" preserve="all" />
+    <type fullname="GG.Framework.Zenject.FrameworkBootstrapInstaller" preserve="all" />
+    <type fullname="GG.Framework.Zenject.FrameworkCommonInstaller" preserve="all" />
+    <type fullname="GG.Framework.Zenject.FrameworkNetworkInstaller" preserve="all" />
+    <type fullname="GG.Framework.Zenject.FrameworkOperationsInstaller" preserve="all" />
+    <type fullname="UFX.UFXTuner" preserve="all" />
+    <type fullname="UFX.UFXBump" preserve="nothing" serialized="true" />
+    <type fullname="UFX.UFXColorMask" preserve="nothing" serialized="true" />
+    <type fullname="UFX.UFXDissolve" preserve="nothing" serialized="true" />
+    <type fullname="UFX.UFXDistort" preserve="nothing" serialized="true" />
+    <type fullname="UFX.UFXOverData" preserve="nothing" serialized="true" />
+    <type fullname="UFX.UFXRamp" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Audio, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Audio.AudioInstaller" preserve="all" />
+  </assembly>
+  <assembly fullname="City, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="BushViewer" preserve="all" />
+    <type fullname="CameraSpaceObserver" preserve="all" />
+    <type fullname="City.Context.CityCommandInstaller" preserve="all" />
+    <type fullname="City.Context.CitySceneHandler" preserve="all" />
+    <type fullname="City.Controllers.CitySurvivors.CitySurvivorPoint" preserve="all" />
+    <type fullname="City.Controllers.GrassViewerController" preserve="all" />
+    <type fullname="City.Controllers.HospitalBuildingView" preserve="all" />
+    <type fullname="City.Controllers.ResearchCenterBuildingView" preserve="all" />
+    <type fullname="City.Controllers.TrainingCampBuildingView" preserve="all" />
+    <type fullname="City.Controllers.WaterTowerBuildingView" preserve="all" />
+    <type fullname="City.Cutscenes.Scriptable.CameraFocusBuildingSlotCutsceneAction" preserve="all" />
+    <type fullname="City.Cutscenes.Scriptable.GrassControlCutsceneAction" preserve="all" />
+    <type fullname="City.Cutscenes.Scriptable.SetBuildingActiveCutsceneAction" preserve="all" />
+    <type fullname="City.Cutscenes.Scriptable.SetBuildingNamesActiveCutsceneAction" preserve="all" />
+    <type fullname="City.Cutscenes.Scriptable.SetHouseZoomEnabledCutsceneAction" preserve="all" />
+    <type fullname="City.Cutscenes.Scriptable.ShowProcessBubbleCutsceneAction" preserve="all" />
+    <type fullname="City.Cutscenes.Scriptable.ShowStatBubbleCutsceneAction" preserve="all" />
+    <type fullname="City.Cutscenes.Scriptable.ShowSurvivorsStatBubbleCutsceneAction" preserve="all" />
+    <type fullname="City.Installer.CityViewInstaller" preserve="all" />
+    <type fullname="City.Views.BuildingControlView" preserve="all" />
+    <type fullname="City.Views.BuildingEmptySurvivorSlotView" preserve="all" />
+    <type fullname="City.Views.BuildingFloatingProcessWithStaticIconView" preserve="all" />
+    <type fullname="City.Views.BuildingFloatingUpgradeProcessView" preserve="all" />
+    <type fullname="City.Views.BuildingFloatingView" preserve="all" />
+    <type fullname="City.Views.BuildingFoundationWindowView" preserve="all" />
+    <type fullname="City.Views.BuildingFurnitureSlots" preserve="all" />
+    <type fullname="City.Views.BuildingInfoWindowView" preserve="all" />
+    <type fullname="City.Views.BuildingLockedSurvivorSlotView" preserve="all" />
+    <type fullname="City.Views.BuildingSurvivorSlotView" preserve="all" />
+    <type fullname="City.Views.BuildingSurvivorsView" preserve="all" />
+    <type fullname="City.Views.BuildingUpgradeRequirementsView" preserve="all" />
+    <type fullname="City.Views.BuildingUpgradeWindowView" preserve="all" />
+    <type fullname="City.Views.BuildingView" preserve="all" />
+    <type fullname="City.Views.CitizenStatusHudView" preserve="all" />
+    <type fullname="City.Views.CitySurvivorView" preserve="all" />
+    <type fullname="City.Views.CityView" preserve="all" />
+    <type fullname="City.Views.FurnitureFloatingView" preserve="all" />
+    <type fullname="City.Views.FurnitureInfoView" preserve="all" />
+    <type fullname="City.Views.FurnitureProductionInfoView" preserve="all" />
+    <type fullname="City.Views.FurnitureSceneView" preserve="all" />
+    <type fullname="City.Views.FurnitureStatItemView" preserve="all" />
+    <type fullname="City.Views.FurnitureView" preserve="all" />
+    <type fullname="City.Views.Hud.CityHudButtonsView" preserve="all" />
+    <type fullname="City.Views.PriceGridView" preserve="all" />
+    <type fullname="City.Views.SurvivorProcessFloatingView" preserve="all" />
+    <type fullname="City.Views.SurvivorProductionEffectView" preserve="all" />
+    <type fullname="City.Views.SurvivorStatFloatingView" preserve="all" />
+    <type fullname="City.Views.SurvivorView" preserve="all" />
+    <type fullname="City.Views.TechView.TechTreeLineView" preserve="all" />
+    <type fullname="City.Views.TechView.TechTreeSlotView" preserve="all" />
+    <type fullname="City.Views.TechView.TechTreeView" preserve="all" />
+    <type fullname="City.Views.TroopsFloatingProcessView" preserve="all" />
+    <type fullname="City.Views.UiBuildingSummaryItemView" preserve="all" />
+    <type fullname="City.Views.UiBuildingSummaryView" preserve="all" />
+    <type fullname="City.Views.UpgradeRequirementView" preserve="all" />
+    <type fullname="City.Windows.AvailableSurvivorFilterView" preserve="all" />
+    <type fullname="City.Windows.AvailableSurvivorItemView" preserve="all" />
+    <type fullname="City.Windows.AvailableSurvivorsWindowView" preserve="all" />
+    <type fullname="City.Windows.BuildingsWindows.BuildingDetailsWindowView" preserve="all" />
+    <type fullname="City.Windows.BuildingsWindows.BuildingMoreDetailsWindowView" preserve="all" />
+    <type fullname="City.Windows.CitizenStatusBuildingView" preserve="all" />
+    <type fullname="City.Windows.CitizenStatusDetailsView" preserve="all" />
+    <type fullname="City.Windows.CitizenStatusMainView" preserve="all" />
+    <type fullname="City.Windows.CitizenStatusStatView" preserve="all" />
+    <type fullname="City.Windows.CitizenStatusWindowView" preserve="all" />
+    <type fullname="City.Windows.CitizenStatusWorkplaceSlotView" preserve="all" />
+    <type fullname="City.Windows.HospitalWindow.DisbandmentOfTroopsView" preserve="all" />
+    <type fullname="City.Windows.HospitalWindow.InjuredTroopView" preserve="all" />
+    <type fullname="City.Windows.HospitalWindowView" preserve="all" />
+    <type fullname="City.Windows.OfflineIncomeReportWindowView" preserve="all" />
+    <type fullname="City.Windows.ResearchCenterWindowView" preserve="all" />
+    <type fullname="City.Windows.SpeedupWindow.AutoSpeedupView" preserve="all" />
+    <type fullname="City.Windows.SpeedupWindow.FinishUpgradeConfirmationView" preserve="all" />
+    <type fullname="City.Windows.SpeedupWindowView" preserve="all" />
+    <type fullname="City.Windows.TechInfoWindowView" preserve="all" />
+    <type fullname="City.Windows.TrainingCampWindowView" preserve="all" />
+    <type fullname="City.Windows.TrainTroopsWindow.UiTroopStatSliderView" preserve="all" />
+    <type fullname="City.Windows.TrainTroopsWindow.UiTroopStatsView" preserve="all" />
+    <type fullname="City.Windows.WaterMeterView" preserve="all" />
+    <type fullname="City.Windows.WaterSupply.WaterSupplyWindowView" preserve="all" />
+    <type fullname="City.Windows.WaterTowerBuildingWindowView" preserve="all" />
+    <type fullname="CoreMechanics.PathPoint" preserve="all" />
+    <type fullname="Curve" preserve="all" />
+    <type fullname="CurveToRailRoad" preserve="all" />
+    <type fullname="DayNightToSpotListener" preserve="all" />
+    <type fullname="DropBox" preserve="all" />
+    <type fullname="DropMaker" preserve="all" />
+    <type fullname="GlobalShaderParams" preserve="all" />
+    <type fullname="GrassViewer" preserve="all" />
+    <type fullname="HouseBoxPreset" preserve="all" />
+    <type fullname="HouseDropAgent" preserve="all" />
+    <type fullname="HouseLevelSign" preserve="all" />
+    <type fullname="HouseMapBaker" preserve="all" />
+    <type fullname="HouseOne" preserve="all" />
+    <type fullname="HouseZoomAffector" preserve="all" />
+    <type fullname="HouseZoomMaster" preserve="all" />
+    <type fullname="HSVTuner" preserve="all" />
+    <type fullname="LakeViewer" preserve="all" />
+    <type fullname="LitMaster" preserve="all" />
+    <type fullname="LitMasterStuff" preserve="all" />
+    <type fullname="LoopBox" preserve="all" />
+    <type fullname="MeshBlinker" preserve="all" />
+    <type fullname="RampToRend" preserve="all" />
+    <type fullname="RotationLock" preserve="all" />
+    <type fullname="Rotator" preserve="all" />
+    <type fullname="SetPosAtStart" preserve="all" />
+    <type fullname="Sources.City.TechArt.Splines.SplineToMeshBaker" preserve="all" />
+    <type fullname="Spline" preserve="all" />
+    <type fullname="SplineToBox" preserve="all" />
+    <type fullname="SplineToRail" preserve="all" />
+    <type fullname="SpotMaster" preserve="all" />
+    <type fullname="SpotPainter" preserve="all" />
+    <type fullname="SpotSpace.Spot" preserve="all" />
+    <type fullname="StuffViewer" preserve="all" />
+    <type fullname="TexArrayPack" preserve="all" />
+    <type fullname="TextArrayHolder" preserve="all" />
+    <type fullname="ToonBouncer" preserve="all" />
+    <type fullname="ToonSpawner" preserve="all" />
+    <type fullname="ToonSpawnPreset" preserve="all" />
+    <type fullname="X4.DirtController" preserve="all" />
+    <type fullname="HouseOne/RendBox" preserve="nothing" serialized="true" />
+    <type fullname="City.Windows.TrainTroopsWindow.UiTroopStatSliderView/IconSetup" preserve="nothing" serialized="true" />
+    <type fullname="Sources.City.TechArt.Splines.SplineToMeshContainer" preserve="nothing" serialized="true" />
+    <type fullname="City.Views.CitySurvivorView/ItemInHand" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Common, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Common.CommonInstaller" preserve="all" />
+    <type fullname="Common.UiViews.Components.SliderComponentView" preserve="all" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.RarityImageView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiEntityView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.LighthouseMissionPointView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Views.BuildingEmptySurvivorSlotView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Views.BuildingLockedSurvivorSlotView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Views.BuildingSurvivorSlotView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Views.FurnitureStatItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Views.FurnitureView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Views.TechView.TechTreeLineView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Views.UiBuildingSummaryItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Views.UpgradeRequirementView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Windows.AvailableSurvivorFilterView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Windows.AvailableSurvivorItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Windows.CitizenStatusBuildingView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Windows.CitizenStatusWorkplaceSlotView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Windows.HospitalWindow.InjuredTroopView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[City.Windows.TrainTroopsWindow.UiTroopStatSliderView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.EffectValueView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.PriceView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.TabButtonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiTextLineView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiTextView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiTroopView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.ObtainMoreWindow.ReplenishAllItemInfoView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[UnityEngine.Transform]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Map.Labels.MapLabelTypeTabButtonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Map.Labels.UiMapLabelView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Map.Views.CellCheckInfoView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Map.Views.MarchSpeedupItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Map.Windows.MapSearchFilterView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiButtonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiLabelView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiPriceButtonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Map.Views.MapCellWindowInfoLabelPairView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[UnityEngine.UI.Image]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Views.AllianceInfoView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Views.AllianceRankButtonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Views.DialogueMessageSequenceView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Views.Processes.City.EmptySlotView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Views.Processes.ProcessView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Views.ScheduleDetailsItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.ObtainMoreTabButtonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiGearView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiHeroSelectableView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiHeroView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiStatValuesView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Widgets.UiToggleRadioView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.AlertMessageView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.AllianceInviteView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.BackpackWindow.BackpackSummaryItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.BattleTroopDetailsRowView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.BattleTroopsDetailsView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.BonusValueView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.Chat.GroupMemberCellView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.Chat.PersonalChatCellView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.IncomingAttackBannerView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailBattleButtonsView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailBattleOverviewView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailBonusSourceView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailChiefGearComparisonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailEntitiesView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailEntityView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailGatheredResourceView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailHeroComparisonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailMessageView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailMineReportView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailRewardsView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailStatBonusView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailStatBonusesView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailTextMessageView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailTroopPowerComparisonView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailTroopView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailTroopsTotalView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MailUserInfoView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.MissionsWindow.MissionView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.ObtainMoreWindow.UiObtainSourceView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.ResourceProductionItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.SelectableAvatarView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[Main.Windows.StaminaShopItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[UnityEngine.UI.GridLayoutGroup]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[MapEditor.Views.MapEditorDecorListItemView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[MiniGames.DefenseMissions.Controllers.UIHeroDamageStatisticView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[MiniGames.HeroesDeployment.UISelectableHeroView]" preserve="nothing" serialized="true" />
+    <type fullname="Common.SerializableComponentPool`1[TMPro.TMP_Text]" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Cutscene, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cutscene.Camera.CutsceneCameraInstaller" preserve="all" />
+    <type fullname="Cutscene.Context.CutsceneInstaller" preserve="all" />
+    <type fullname="Cutscene.Train.Actions.CompletedTrolleyGameCutsceneTrigger" preserve="all" />
+    <type fullname="Cutscene.Train.Actions.StartTrolleyGameCutsceneAction" preserve="all" />
+    <type fullname="Cutscene.Train.Actions.TrolleyGamePointsAnimatorTrigger" preserve="all" />
+    <type fullname="Cutscene.Train.Context.TrainCutsceneHandler" preserve="all" />
+    <type fullname="Cutscene.Train.Context.TrainCutsceneInstaller" preserve="all" />
+    <type fullname="Cutscene.Train.TrainCutsceneGrenadeWidgetView" preserve="all" />
+    <type fullname="Cutscene.Train.TrainCutsceneTutorView" preserve="all" />
+    <type fullname="Cutscene.Train.TrainCutsceneUIView" preserve="all" />
+    <type fullname="Cutscene.Train.TrolleyPushResultPopupView" preserve="all" />
+    <type fullname="Cutscene.Train.Actions.TrolleyGamePointsAnimatorTrigger/PointsAnimatorState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Dev, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Cheats.Views.CheatActivatorButtonView" preserve="all" />
+    <type fullname="Cheats.Views.CheatButtonLineView" preserve="all" />
+    <type fullname="Cheats.Views.CheatDualFieldLineView" preserve="all" />
+    <type fullname="Cheats.Views.CheatFieldLineView" preserve="all" />
+    <type fullname="Cheats.Views.CheatsView" preserve="all" />
+    <type fullname="Cheats.Views.CheatToggleLineView" preserve="all" />
+    <type fullname="Dev.Scenes.CheatsInstaller" preserve="all" />
+    <type fullname="Dev.Scenes.DevSceneHandler" preserve="all" />
+    <type fullname="Dev.Scenes.DevSceneInstaller" preserve="all" />
+    <type fullname="Dev.Views.CheatFieldLineWithResultView" preserve="all" />
+    <type fullname="Dev.Views.CheatGroupView" preserve="all" />
+  </assembly>
+  <assembly fullname="GG.Assets, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GG.Framework.Zenject.FrameworkAssetsInstaller" preserve="all" />
+  </assembly>
+  <assembly fullname="GG.Audio, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GG.Framework.Audio.FrameworkAudioInstaller" preserve="all" />
+    <type fullname="GG.Framework.Audio.LoopSound" preserve="all" />
+    <type fullname="GG.Framework.Audio.MusicSound" preserve="all" />
+    <type fullname="GG.Framework.Audio.SimpleSound" preserve="all" />
+    <type fullname="GG.Framework.Audio.AudioFadeOptions" preserve="nothing" serialized="true" />
+    <type fullname="GG.Framework.Audio.MusicSound/Melodie" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="GG.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GG.Framework.AutoLocalizeController" preserve="all" />
+    <type fullname="GG.Framework.FrameworkLocalizationInstaller" preserve="all" />
+  </assembly>
+  <assembly fullname="GG.Views, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GG.Framework.Views.UiMecanimAnimator" preserve="all" />
+    <type fullname="GG.Framework.Views.UiView" preserve="all" />
+  </assembly>
+  <assembly fullname="GG.Windows, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GG.Framework.Windows.FrameworkWindowsInstaller" preserve="all" />
+  </assembly>
+  <assembly fullname="IngameDebugConsole.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="IngameDebugConsole.DebugLogItem" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogManager" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogPopup" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogRecycledListView" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugLogResizeListener" preserve="all" />
+    <type fullname="IngameDebugConsole.DebugsOnScrollListener" preserve="all" />
+    <type fullname="IngameDebugConsole.EventSystemHandler" preserve="all" />
+  </assembly>
+  <assembly fullname="Main, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="CanvasToCameraSnapper" preserve="all" />
+    <type fullname="City.Views.ModelPodiumView" preserve="all" />
+    <type fullname="Entry.MainSceneHandler" preserve="all" />
+    <type fullname="Main.Audio.AudioListenerView" preserve="all" />
+    <type fullname="Main.Audio.AudioSpotView" preserve="all" />
+    <type fullname="Main.Cutscenes.CutscenesInstaller" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.AnimatorCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.ClientCutsceneTrigger" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.CloseTopWindowCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.CollisionCutsceneTrigger" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.CutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.CutsceneAnimatorHelper" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.DelayCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.DestroyCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.ExplosionBridgeEventTrigger" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.ExplosionBridgeInvokeCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.FinishCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.FireTriggerCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.OpenLighthouseWindowCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.PlayLoopSoundCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.PlayMusicCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.PlayParticleCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.PlaySimpleSoundCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetActiveCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetAnimatorParameterCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetCameraEnabledCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetCameraFollowTargetCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetCameraMoveSpeedMultiplierCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetCameraZoomCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetDaylightStateCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetDaylightSystemEnabledCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetGameTimeCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetHudActiveCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetInputEnabledCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetMainCameraEnabledCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.SetOutlineEnabledCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.ShowCitizenStatusBubbleCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.ShowNarrativeBubbleCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.ShowPhraseBubbleCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.StopAudioChannelCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.StopLoopSoundCutsceneAction" preserve="all" />
+    <type fullname="Main.Cutscenes.Scriptable.StopSimpleSoundCutsceneAction" preserve="all" />
+    <type fullname="Main.Dialogues.DialoguesInstaller" preserve="all" />
+    <type fullname="Main.FeatureUnlock.Views.FeatureUnlockView" preserve="all" />
+    <type fullname="Main.FeatureUnlock.Views.UIFeatureUnlockButtonView" preserve="all" />
+    <type fullname="Main.Installers.MainInstaller" preserve="all" />
+    <type fullname="Main.Installers.MainViewInstaller" preserve="all" />
+    <type fullname="Main.SoftTutorial.SoftTutorialMainInstaller" preserve="all" />
+    <type fullname="Main.Tutorial.TutorialMainInstaller" preserve="all" />
+    <type fullname="Main.Tutorial.Views.HighlightView" preserve="all" />
+    <type fullname="Main.Tutorial.Views.HoleImage" preserve="all" />
+    <type fullname="Main.Tutorial.Views.SoftTutorialWidgetView" preserve="all" />
+    <type fullname="Main.Tutorial.Views.TutorialBubblePopupView" preserve="all" />
+    <type fullname="Main.Tutorial.Views.TutorialCharacterPopupView" preserve="all" />
+    <type fullname="Main.Tutorial.Views.TutorialClickHintView" preserve="all" />
+    <type fullname="Main.Tutorial.Views.TutorialHighlightView" preserve="all" />
+    <type fullname="Main.Tutorial.Views.TutorialInteractionView" preserve="all" />
+    <type fullname="Main.Tutorial.Views.TutorialWidgetView" preserve="all" />
+    <type fullname="Main.UI.HeroClassSpriteProvider" preserve="all" />
+    <type fullname="Main.UI.IntSpriteProvider" preserve="all" />
+    <type fullname="Main.Utils.ShowKeyboardTool" preserve="all" />
+    <type fullname="Main.Utils.UiSetCanvasSortingLayer" preserve="all" />
+    <type fullname="Main.Views.AllianceInfoCellView" preserve="all" />
+    <type fullname="Main.Views.AllianceInfoView" preserve="all" />
+    <type fullname="Main.Views.AllianceRankButtonView" preserve="all" />
+    <type fullname="Main.Views.AllianceUserCellView" preserve="all" />
+    <type fullname="Main.Views.AllianceUserView" preserve="all" />
+    <type fullname="Main.Views.AnnouncementView" preserve="all" />
+    <type fullname="Main.Views.AppInfoView" preserve="all" />
+    <type fullname="Main.Views.CutsceneCitizenStatusBubbleView" preserve="all" />
+    <type fullname="Main.Views.CutsceneNarrativeBubbleView" preserve="all" />
+    <type fullname="Main.Views.CutscenePhraseBubbleView" preserve="all" />
+    <type fullname="Main.Views.CutsceneSlidesView" preserve="all" />
+    <type fullname="Main.Views.CutsceneSlideView" preserve="all" />
+    <type fullname="Main.Views.DialogueMessageSequenceView" preserve="all" />
+    <type fullname="Main.Views.DialogueMessageSlideView" preserve="all" />
+    <type fullname="Main.Views.DialogueSequenceView" preserve="all" />
+    <type fullname="Main.Views.DialogueSlidesView" preserve="all" />
+    <type fullname="Main.Views.Hud.AlertsHudView" preserve="all" />
+    <type fullname="Main.Views.Hud.HudView" preserve="all" />
+    <type fullname="Main.Views.Hud.IncomingAttackEffectView" preserve="all" />
+    <type fullname="Main.Views.Hud.PlayerHudView" preserve="all" />
+    <type fullname="Main.Views.Hud.WaterLevelView" preserve="all" />
+    <type fullname="Main.Views.HudBottomButtonsView" preserve="all" />
+    <type fullname="Main.Views.HudChatView" preserve="all" />
+    <type fullname="Main.Views.PrintingTextView" preserve="all" />
+    <type fullname="Main.Views.Processes.City.BuildingProcessGroupView" preserve="all" />
+    <type fullname="Main.Views.Processes.City.EmptySlotView" preserve="all" />
+    <type fullname="Main.Views.Processes.City.ProcessPanelCityTabView" preserve="all" />
+    <type fullname="Main.Views.Processes.City.ResearchingProcessGroupView" preserve="all" />
+    <type fullname="Main.Views.Processes.City.TrainingProcessGroupView" preserve="all" />
+    <type fullname="Main.Views.Processes.Map.MarchProcessGroupView" preserve="all" />
+    <type fullname="Main.Views.Processes.Map.ProcessPanelMapTabView" preserve="all" />
+    <type fullname="Main.Views.Processes.ProcessesPanelView" preserve="all" />
+    <type fullname="Main.Views.Processes.ProcessView" preserve="all" />
+    <type fullname="Main.Views.RotateGameObjectWithUI" preserve="all" />
+    <type fullname="Main.Views.RunningLineView" preserve="all" />
+    <type fullname="Main.Views.SafeArea.SafeAreaInstaller" preserve="all" />
+    <type fullname="Main.Views.SafeArea.SafeAreaView" preserve="all" />
+    <type fullname="Main.Views.ScheduleDetailsItemView" preserve="all" />
+    <type fullname="Main.Views.ToastView" preserve="all" />
+    <type fullname="Main.Views.ToolsView" preserve="all" />
+    <type fullname="Main.Views.TransitionView" preserve="all" />
+    <type fullname="Main.Views.UiGameTimeView" preserve="all" />
+    <type fullname="Main.Views.UiLimitedInputView" preserve="all" />
+    <type fullname="Main.Views.UIResourceEntityTooltipView" preserve="all" />
+    <type fullname="Main.Views.UiTooltipView" preserve="all" />
+    <type fullname="Main.Views.UiUserView" preserve="all" />
+    <type fullname="Main.Views.WaitProcessView" preserve="all" />
+    <type fullname="Main.Widgets.AvatarView" preserve="all" />
+    <type fullname="Main.Widgets.EffectValueView" preserve="all" />
+    <type fullname="Main.Widgets.EnhancedScroller" preserve="all" />
+    <type fullname="Main.Widgets.EnhancedScrollerCellView" preserve="all" />
+    <type fullname="Main.Widgets.LayoutGroupsRebuilder" preserve="all" />
+    <type fullname="Main.Widgets.MissionsWidgetView" preserve="all" />
+    <type fullname="Main.Widgets.ModelPreviewView" preserve="all" />
+    <type fullname="Main.Widgets.ObtainMoreTabButtonView" preserve="all" />
+    <type fullname="Main.Widgets.PriceView" preserve="all" />
+    <type fullname="Main.Widgets.RadialLayoutGroup" preserve="all" />
+    <type fullname="Main.Widgets.RarityImageView" preserve="all" />
+    <type fullname="Main.Widgets.ReferenceButton" preserve="all" />
+    <type fullname="Main.Widgets.RewardListView" preserve="all" />
+    <type fullname="Main.Widgets.SkipButtonView" preserve="all" />
+    <type fullname="Main.Widgets.TabButtonView" preserve="all" />
+    <type fullname="Main.Widgets.UiButtonView" preserve="all" />
+    <type fullname="Main.Widgets.UiDevIdView" preserve="all" />
+    <type fullname="Main.Widgets.UiEffectInfoListView" preserve="all" />
+    <type fullname="Main.Widgets.UiEntityHeaderView" preserve="all" />
+    <type fullname="Main.Widgets.UiEntityView" preserve="all" />
+    <type fullname="Main.Widgets.UiGearSlotView" preserve="all" />
+    <type fullname="Main.Widgets.UiGearView" preserve="all" />
+    <type fullname="Main.Widgets.UiHeroClassView" preserve="all" />
+    <type fullname="Main.Widgets.UiHeroRankView" preserve="all" />
+    <type fullname="Main.Widgets.UiHeroSelectableView" preserve="all" />
+    <type fullname="Main.Widgets.UiHeroSlotView" preserve="all" />
+    <type fullname="Main.Widgets.UiHeroSortDropdownView" preserve="all" />
+    <type fullname="Main.Widgets.UiHeroView" preserve="all" />
+    <type fullname="Main.Widgets.UiIconView" preserve="all" />
+    <type fullname="Main.Widgets.UiLabelView" preserve="all" />
+    <type fullname="Main.Widgets.UiPriceButtonView" preserve="all" />
+    <type fullname="Main.Widgets.UiRarityView" preserve="all" />
+    <type fullname="Main.Widgets.UiResourceProgressBarView" preserve="all" />
+    <type fullname="Main.Widgets.UiResourceValueView" preserve="all" />
+    <type fullname="Main.Widgets.UiSelectionSliderView" preserve="all" />
+    <type fullname="Main.Widgets.UiSkillView" preserve="all" />
+    <type fullname="Main.Widgets.UISliderBarView" preserve="all" />
+    <type fullname="Main.Widgets.UiStateSwitcherView" preserve="all" />
+    <type fullname="Main.Widgets.UiStatValuesListView" preserve="all" />
+    <type fullname="Main.Widgets.UiStatValuesView" preserve="all" />
+    <type fullname="Main.Widgets.UISwipeableView" preserve="all" />
+    <type fullname="Main.Widgets.UiTextLineView" preserve="all" />
+    <type fullname="Main.Widgets.UiTextView" preserve="all" />
+    <type fullname="Main.Widgets.UiTimerProgressBarView" preserve="all" />
+    <type fullname="Main.Widgets.UiTimeView" preserve="all" />
+    <type fullname="Main.Widgets.UiToggleRadioView" preserve="all" />
+    <type fullname="Main.Widgets.UiToggleView" preserve="all" />
+    <type fullname="Main.Widgets.UiTroopView" preserve="all" />
+    <type fullname="Main.Windows.AlertMessageView" preserve="all" />
+    <type fullname="Main.Windows.AlertMessageWindowView" preserve="all" />
+    <type fullname="Main.Windows.AlertsWindowView" preserve="all" />
+    <type fullname="Main.Windows.AllianceButtonsWindowView" preserve="all" />
+    <type fullname="Main.Windows.AllianceCreateView" preserve="all" />
+    <type fullname="Main.Windows.AllianceInvitesAndRequestsView" preserve="all" />
+    <type fullname="Main.Windows.AllianceInviteView" preserve="all" />
+    <type fullname="Main.Windows.AllianceListView" preserve="all" />
+    <type fullname="Main.Windows.AllianceListWindowView" preserve="all" />
+    <type fullname="Main.Windows.AllianceManagementWindowView" preserve="all" />
+    <type fullname="Main.Windows.AllianceSettingsWindowView" preserve="all" />
+    <type fullname="Main.Windows.AllianceUserTooltipView" preserve="all" />
+    <type fullname="Main.Windows.AllianceWindowView" preserve="all" />
+    <type fullname="Main.Windows.AvatarSelectionWindowView" preserve="all" />
+    <type fullname="Main.Windows.BackpackWindow.BackpackSummaryItemView" preserve="all" />
+    <type fullname="Main.Windows.BackpackWindow.BackpackSummaryView" preserve="all" />
+    <type fullname="Main.Windows.BackpackWindow.UseResourceWidgetView" preserve="all" />
+    <type fullname="Main.Windows.BackpackWindowView" preserve="all" />
+    <type fullname="Main.Windows.BattleDetailsWindowView" preserve="all" />
+    <type fullname="Main.Windows.BattleTroopDetailsRowView" preserve="all" />
+    <type fullname="Main.Windows.BattleTroopsDetailsView" preserve="all" />
+    <type fullname="Main.Windows.BonusesReviewWindowView" preserve="all" />
+    <type fullname="Main.Windows.BonusValueView" preserve="all" />
+    <type fullname="Main.Windows.ChangeAllianceRankWindowView" preserve="all" />
+    <type fullname="Main.Windows.ChangePlayerNicknameWindowView" preserve="all" />
+    <type fullname="Main.Windows.Chat.ChatEnhancedScrollView" preserve="all" />
+    <type fullname="Main.Windows.Chat.ChatInfoView" preserve="all" />
+    <type fullname="Main.Windows.Chat.ChatMessageCell" preserve="all" />
+    <type fullname="Main.Windows.Chat.ChatView" preserve="all" />
+    <type fullname="Main.Windows.Chat.ChatWindowView" preserve="all" />
+    <type fullname="Main.Windows.Chat.DeleteChatWindowView" preserve="all" />
+    <type fullname="Main.Windows.Chat.GroupChatView" preserve="all" />
+    <type fullname="Main.Windows.Chat.GroupMemberCellView" preserve="all" />
+    <type fullname="Main.Windows.Chat.MegaphoneView" preserve="all" />
+    <type fullname="Main.Windows.Chat.PersonalChatCellView" preserve="all" />
+    <type fullname="Main.Windows.Chat.PersonalChatsView" preserve="all" />
+    <type fullname="Main.Windows.Chat.PersonalTooltipWindowView" preserve="all" />
+    <type fullname="Main.Windows.Chat.RenameGroupChatView" preserve="all" />
+    <type fullname="Main.Windows.Chat.WorldChatTooltipWindowView" preserve="all" />
+    <type fullname="Main.Windows.ConfirmationRebootWindowView" preserve="all" />
+    <type fullname="Main.Windows.ConfirmationWindowView" preserve="all" />
+    <type fullname="Main.Windows.FatalErrorWindowView" preserve="all" />
+    <type fullname="Main.Windows.GameSettingsView" preserve="all" />
+    <type fullname="Main.Windows.GearInfoWindowView" preserve="all" />
+    <type fullname="Main.Windows.GearSelectionWindowView" preserve="all" />
+    <type fullname="Main.Windows.GearUpgradeWindowView" preserve="all" />
+    <type fullname="Main.Windows.HeroesWindowView" preserve="all" />
+    <type fullname="Main.Windows.HeroGearTabView" preserve="all" />
+    <type fullname="Main.Windows.HeroHistoryWindow.HeroHistoryWindowView" preserve="all" />
+    <type fullname="Main.Windows.HeroSelectWindow.HeroSelectionWindowView" preserve="all" />
+    <type fullname="Main.Windows.HeroShardExchangeWindow.HeroShardExchangeWindowView" preserve="all" />
+    <type fullname="Main.Windows.HeroSkillsTabView" preserve="all" />
+    <type fullname="Main.Windows.HeroStatsTabView" preserve="all" />
+    <type fullname="Main.Windows.HeroWindowView" preserve="all" />
+    <type fullname="Main.Windows.IncomingAttackBannerView" preserve="all" />
+    <type fullname="Main.Windows.InfoWindowView" preserve="all" />
+    <type fullname="Main.Windows.LanguagesView" preserve="all" />
+    <type fullname="Main.Windows.LighthouseInformationWindowView" preserve="all" />
+    <type fullname="Main.Windows.LighthouseLevelUpWindowView" preserve="all" />
+    <type fullname="Main.Windows.LighthouseMissionPointView" preserve="all" />
+    <type fullname="Main.Windows.LighthouseMissionPreviewWindowView" preserve="all" />
+    <type fullname="Main.Windows.LighthouseWindowView" preserve="all" />
+    <type fullname="Main.Windows.MailAbilitiesTooltipWindowView" preserve="all" />
+    <type fullname="Main.Windows.MailBattleButtonsView" preserve="all" />
+    <type fullname="Main.Windows.MailBattleOverviewView" preserve="all" />
+    <type fullname="Main.Windows.MailBattleStatView" preserve="all" />
+    <type fullname="Main.Windows.MailBonusSourceView" preserve="all" />
+    <type fullname="Main.Windows.MailChiefGearComparisonView" preserve="all" />
+    <type fullname="Main.Windows.MailEntitiesView" preserve="all" />
+    <type fullname="Main.Windows.MailEntityView" preserve="all" />
+    <type fullname="Main.Windows.MailGatheredResourceView" preserve="all" />
+    <type fullname="Main.Windows.MailHeroComparisonView" preserve="all" />
+    <type fullname="Main.Windows.MailHeroView" preserve="all" />
+    <type fullname="Main.Windows.MailMessageBannerView" preserve="all" />
+    <type fullname="Main.Windows.MailMessageScrollRect" preserve="all" />
+    <type fullname="Main.Windows.MailMessageView" preserve="all" />
+    <type fullname="Main.Windows.MailMessageWindowView" preserve="all" />
+    <type fullname="Main.Windows.MailMineReportView" preserve="all" />
+    <type fullname="Main.Windows.MailRewardsView" preserve="all" />
+    <type fullname="Main.Windows.MailStatBonusesView" preserve="all" />
+    <type fullname="Main.Windows.MailStatBonusView" preserve="all" />
+    <type fullname="Main.Windows.MailTextMessageView" preserve="all" />
+    <type fullname="Main.Windows.MailTroopPowerComparisonView" preserve="all" />
+    <type fullname="Main.Windows.MailTroopsTotalView" preserve="all" />
+    <type fullname="Main.Windows.MailTroopView" preserve="all" />
+    <type fullname="Main.Windows.MailUserInfoView" preserve="all" />
+    <type fullname="Main.Windows.MailUserTroopsView" preserve="all" />
+    <type fullname="Main.Windows.MailVersusView" preserve="all" />
+    <type fullname="Main.Windows.MailWindowScrollRect" preserve="all" />
+    <type fullname="Main.Windows.MailWindowView" preserve="all" />
+    <type fullname="Main.Windows.MainSettingsView" preserve="all" />
+    <type fullname="Main.Windows.MaintenanceWindowView" preserve="all" />
+    <type fullname="Main.Windows.MissionsWindow.ChapterMissionsView" preserve="all" />
+    <type fullname="Main.Windows.MissionsWindow.DailyMissionsView" preserve="all" />
+    <type fullname="Main.Windows.MissionsWindow.GrowthMissionsView" preserve="all" />
+    <type fullname="Main.Windows.MissionsWindow.MissionsWindowView" preserve="all" />
+    <type fullname="Main.Windows.MissionsWindow.MissionView" preserve="all" />
+    <type fullname="Main.Windows.NetworkErrorWindowView" preserve="all" />
+    <type fullname="Main.Windows.ObtainMoreWindow.ReplenishAllItemInfoView" preserve="all" />
+    <type fullname="Main.Windows.ObtainMoreWindow.ReplenishAllView" preserve="all" />
+    <type fullname="Main.Windows.ObtainMoreWindow.UiObtainSourceView" preserve="all" />
+    <type fullname="Main.Windows.ObtainMoreWindowView" preserve="all" />
+    <type fullname="Main.Windows.OtherSettingsView" preserve="all" />
+    <type fullname="Main.Windows.PowerBonusReviewCategoryView" preserve="all" />
+    <type fullname="Main.Windows.PowerDetailsWindowView" preserve="all" />
+    <type fullname="Main.Windows.ProfileWindowView" preserve="all" />
+    <type fullname="Main.Windows.ReceivingRewardListWindowView" preserve="all" />
+    <type fullname="Main.Windows.ResourceProductionItemView" preserve="all" />
+    <type fullname="Main.Windows.ResourceProductionView" preserve="all" />
+    <type fullname="Main.Windows.ScheduleAndResourceProductionWindowView" preserve="all" />
+    <type fullname="Main.Windows.ScheduleDetailsView" preserve="all" />
+    <type fullname="Main.Windows.SelectableAvatarView" preserve="all" />
+    <type fullname="Main.Windows.SettingsWindowView" preserve="all" />
+    <type fullname="Main.Windows.StaminaShopItemView" preserve="all" />
+    <type fullname="Main.Windows.StaminaShopWindowView" preserve="all" />
+    <type fullname="Main.Windows.UiHeroOverallStatsTooltipView" preserve="all" />
+    <type fullname="Main.Windows.UiHeroPowerTooltipView" preserve="all" />
+    <type fullname="Main.Windows.UpdateRequiredWindowView" preserve="all" />
+    <type fullname="PowerLabelView" preserve="all" />
+    <type fullname="UIGradient" preserve="all" />
+    <type fullname="Main.UI.SpriteProvider`1/Item[System.Int32]" preserve="nothing" serialized="true" />
+    <type fullname="Main.Views.CutsceneSlidePosition" preserve="nothing" serialized="true" />
+    <type fullname="Main.Widgets.UiStateSwitcherView/ActiveStateElement" preserve="nothing" serialized="true" />
+    <type fullname="Main.Widgets.UiStateSwitcherView/ColorElement" preserve="nothing" serialized="true" />
+    <type fullname="Main.Widgets.UiStateSwitcherView/RotationElement" preserve="nothing" serialized="true" />
+    <type fullname="Main.Widgets.UiStateSwitcherView/SpriteElement" preserve="nothing" serialized="true" />
+    <type fullname="Main.Widgets.UiStateSwitcherView/State" preserve="nothing" serialized="true" />
+    <type fullname="Main.Widgets.UiStateSwitcherView/TextElement" preserve="nothing" serialized="true" />
+    <type fullname="Main.Windows.Chat.ChatEnhancedScrollView/CellViews" preserve="nothing" serialized="true" />
+    <type fullname="Main.Windows.HeroGearTabView/GearSlot" preserve="nothing" serialized="true" />
+    <type fullname="Main.Windows.HeroSkillsTabView/SkillSlot" preserve="nothing" serialized="true" />
+    <type fullname="Main.Windows.MailTroopPowerComparisonView/SliderStuff" preserve="nothing" serialized="true" />
+    <type fullname="Main.UI.SpriteProvider`1/Item[Statics.StaticEntity/Hero/Type]" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Map, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GroundMapViewer" preserve="all" />
+    <type fullname="Map.Common.MapBaseView" preserve="all" />
+    <type fullname="Map.Configs.MapMarchLineConfig" preserve="all" />
+    <type fullname="Map.Configs.MapSpriteConfig" preserve="all" />
+    <type fullname="Map.Configs.MapTerrainConfig" preserve="all" />
+    <type fullname="Map.Configs.MapTerrainDecorWithOffsetConfig" preserve="all" />
+    <type fullname="Map.Configs.MapTerrainTiledDecorConfig" preserve="all" />
+    <type fullname="Map.Configs.MapVfxConfig" preserve="all" />
+    <type fullname="Map.Context.MapCommandInstaller" preserve="all" />
+    <type fullname="Map.Context.MapInstaller" preserve="all" />
+    <type fullname="Map.Context.MapSceneHandler" preserve="all" />
+    <type fullname="Map.Context.MapViewInstaller" preserve="all" />
+    <type fullname="Map.Labels.BookmarksWindowView" preserve="all" />
+    <type fullname="Map.Labels.CoordinatesWindowView" preserve="all" />
+    <type fullname="Map.Labels.MapLabelDeleteConfirmWindowView" preserve="all" />
+    <type fullname="Map.Labels.MapLabelTypeTabButtonView" preserve="all" />
+    <type fullname="Map.Labels.PersonalMapLabelSettingsButtonView" preserve="all" />
+    <type fullname="Map.Labels.PersonalMapLabelSettingsWindowView" preserve="all" />
+    <type fullname="Map.Labels.UiMapLabelView" preserve="all" />
+    <type fullname="Map.Marches.Installers.MarchesInstaller" preserve="all" />
+    <type fullname="Map.Marches.Views.MarchLineView" preserve="all" />
+    <type fullname="Map.Marches.Views.MarchTroopView" preserve="all" />
+    <type fullname="Map.Marches.Views.MobSpritePlayerSkinView" preserve="all" />
+    <type fullname="Map.Terrain.Installers.MapTerrainInstaller" preserve="all" />
+    <type fullname="Map.Terrain.Views.DevMapGridView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapCellView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapChunkDevView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapCreatureObjectView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapLabelCityView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapLabelView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapLegendView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapPointView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapResourceZoneView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapSpriteView" preserve="all" />
+    <type fullname="Map.Terrain.Views.MapTerrainView" preserve="all" />
+    <type fullname="Map.Views.CellCheckInfoView" preserve="all" />
+    <type fullname="Map.Views.CityTeleportationCellCheckView" preserve="all" />
+    <type fullname="Map.Views.CityTeleportationInfoView" preserve="all" />
+    <type fullname="Map.Views.MapCellWindowButtonBlockView" preserve="all" />
+    <type fullname="Map.Views.MapCellWindowInfoBlockView" preserve="all" />
+    <type fullname="Map.Views.MapCellWindowInfoLabelPairView" preserve="all" />
+    <type fullname="Map.Views.MapCellWindowInfoProgressView" preserve="all" />
+    <type fullname="Map.Views.MapCellWindowPointerView" preserve="all" />
+    <type fullname="Map.Views.MapCellWindowView" preserve="all" />
+    <type fullname="Map.Views.MapDevInfoView" preserve="all" />
+    <type fullname="Map.Views.MapHudView.MapHudButtonsView" preserve="all" />
+    <type fullname="Map.Views.MapMarchBuilderWindowView" preserve="all" />
+    <type fullname="Map.Views.MapMarchOverlayCommandsView" preserve="all" />
+    <type fullname="Map.Views.MapMarchQueueView" preserve="all" />
+    <type fullname="Map.Views.MapQueueInfoView" preserve="all" />
+    <type fullname="Map.Views.MarchBuilderLineView" preserve="all" />
+    <type fullname="Map.Views.MarchOverviewView" preserve="all" />
+    <type fullname="Map.Views.MarchSpeedupItemView" preserve="all" />
+    <type fullname="Map.Views.MarchSpeedupView" preserve="all" />
+    <type fullname="Map.Views.PlayerCityPointView" preserve="all" />
+    <type fullname="Map.Windows.MapSearchFilterView" preserve="all" />
+    <type fullname="Map.Windows.MapSearchView" preserve="all" />
+    <type fullname="Map.Windows.ScoutMarchWindowView" preserve="all" />
+    <type fullname="MobSpritePlayer" preserve="all" />
+    <type fullname="Map.Configs.MapLineProps" preserve="nothing" serialized="true" />
+    <type fullname="Map.Configs.MapVfxConfig/Item" preserve="nothing" serialized="true" />
+    <type fullname="Map.Configs.MapTerrainDecorTile" preserve="nothing" serialized="true" />
+    <type fullname="Map.Configs.MapTerrainDecorTileCornerConnection" preserve="nothing" serialized="true" />
+    <type fullname="Map.Configs.MapTerrainDecorWithOffset" preserve="nothing" serialized="true" />
+    <type fullname="Map.Terrain.Views.MapTerrainView/LayerOption" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="MapEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MapEditor.Context.MapEditorEcsInstaller" preserve="all" />
+    <type fullname="MapEditor.Context.MapEditorHandler" preserve="all" />
+    <type fullname="MapEditor.Context.MapEditorInstaller" preserve="all" />
+    <type fullname="MapEditor.Context.MapEditorViewInstaller" preserve="all" />
+    <type fullname="MapEditor.Views.MapEditorDecorListItemView" preserve="all" />
+    <type fullname="MapEditor.Views.MapEditorDecorListView" preserve="all" />
+    <type fullname="MapEditor.Views.MapEditorHudView" preserve="all" />
+    <type fullname="MapEditor.Views.MapEditorMainMenuWindowView" preserve="all" />
+    <type fullname="MapEditor.Views.MapEditorPresetSettingsWindowView" preserve="all" />
+  </assembly>
+  <assembly fullname="MiniGames, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="MiniGames.Core.MiniGameCommonInstaller" preserve="all" />
+    <type fullname="MiniGames.Core.MiniGameSceneHandler" preserve="all" />
+    <type fullname="MiniGames.Core.PatternRandomSpawnContext" preserve="all" />
+    <type fullname="MiniGames.Core.PatternSpawnContext" preserve="all" />
+    <type fullname="MiniGames.DefenseMissions.Context.MiniGameDefenseMissionsInstaller" preserve="all" />
+    <type fullname="MiniGames.DefenseMissions.Controllers.MiniGameDefenseMissionsDefeatView" preserve="all" />
+    <type fullname="MiniGames.DefenseMissions.Controllers.MiniGameDefenseMissionsSceneView" preserve="all" />
+    <type fullname="MiniGames.DefenseMissions.Controllers.MiniGameDefenseMissionsTutorView" preserve="all" />
+    <type fullname="MiniGames.DefenseMissions.Controllers.MiniGameDefenseMissionsUIView" preserve="all" />
+    <type fullname="MiniGames.DefenseMissions.Controllers.MiniGameDefenseMissionsVictoryView" preserve="all" />
+    <type fullname="MiniGames.DefenseMissions.Controllers.UIHeroDamageStatisticView" preserve="all" />
+    <type fullname="MiniGames.ForwardRunner.Context.MiniGameForwardRunnerInstaller" preserve="all" />
+    <type fullname="MiniGames.ForwardRunner.Controllers.MiniGameForwardRunnerDefeatView" preserve="all" />
+    <type fullname="MiniGames.ForwardRunner.Controllers.MiniGameForwardRunnerSceneView" preserve="all" />
+    <type fullname="MiniGames.ForwardRunner.Controllers.MiniGameForwardRunnerTutorView" preserve="all" />
+    <type fullname="MiniGames.ForwardRunner.Controllers.MiniGameForwardRunnerUIView" preserve="all" />
+    <type fullname="MiniGames.ForwardRunner.Controllers.MiniGameForwardRunnerVictoryView" preserve="all" />
+    <type fullname="MiniGames.FruitNinja.Context.MiniGameFruitNinjaInstaller" preserve="all" />
+    <type fullname="MiniGames.FruitNinja.Controllers.MiniGameFruitNinjaDefeatView" preserve="all" />
+    <type fullname="MiniGames.FruitNinja.Controllers.MiniGameFruitNinjaSceneView" preserve="all" />
+    <type fullname="MiniGames.FruitNinja.Controllers.MiniGameFruitNinjaTutorView" preserve="all" />
+    <type fullname="MiniGames.FruitNinja.Controllers.MiniGameFruitNinjaUIView" preserve="all" />
+    <type fullname="MiniGames.FruitNinja.Controllers.MiniGameFruitNinjaVictoryView" preserve="all" />
+    <type fullname="MiniGames.HeroesDeployment.HeroPlaceView" preserve="all" />
+    <type fullname="MiniGames.HeroesDeployment.UIHeroesDeploymentView" preserve="all" />
+    <type fullname="MiniGames.HeroesDeployment.UIHeroesFilterClassButtonView" preserve="all" />
+    <type fullname="MiniGames.HeroesDeployment.UISelectableHeroView" preserve="all" />
+    <type fullname="MiniGames.Scripts.AudioSourceHandler" preserve="all" />
+    <type fullname="MiniGames.Scripts.MiniGameDebug" preserve="all" />
+    <type fullname="MiniGames.Views.HeroPowerLevelSliderView" preserve="all" />
+    <type fullname="MiniGames.Views.HpCellView" preserve="all" />
+    <type fullname="MiniGames.Views.MiniGameWarningBossView" preserve="all" />
+    <type fullname="MiniGames.Views.ParticleEffectView" preserve="all" />
+    <type fullname="MiniGames.Views.Popups.AddPointsEventPopupView" preserve="all" />
+    <type fullname="MiniGames.Views.Popups.DamageEventPopupView" preserve="all" />
+    <type fullname="MiniGames.Views.ProjectileView" preserve="all" />
+    <type fullname="MiniGames.Views.SliceCutViewer" preserve="all" />
+    <type fullname="MiniGames.Views.UnitHpBarCellsView" preserve="all" />
+    <type fullname="MiniGames.Views.UnitHpBarView" preserve="all" />
+    <type fullname="MiniGames.Views.UnitRewardEntityPreview" preserve="all" />
+    <type fullname="MiniGames.Views.UnitRewardView" preserve="all" />
+    <type fullname="MiniGames.Views.UnitViewBase" preserve="all" />
+    <type fullname="MiniGames.Views.WeaponPreview" preserve="all" />
+    <type fullname="MiniGames.Wall.Context.MiniGameWallInstaller" preserve="all" />
+    <type fullname="MiniGames.Wall.Controllers.MiniGameWallDefeatView" preserve="all" />
+    <type fullname="MiniGames.Wall.Controllers.MiniGameWallSceneView" preserve="all" />
+    <type fullname="MiniGames.Wall.Controllers.MiniGameWallTutorView" preserve="all" />
+    <type fullname="MiniGames.Wall.Controllers.MiniGameWallUIView" preserve="all" />
+    <type fullname="MiniGames.Wall.Controllers.MiniGameWallVictoryView" preserve="all" />
+  </assembly>
+  <assembly fullname="Models, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Models.Installers.ModelsInstaller" preserve="all" />
+  </assembly>
+  <assembly fullname="Statics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="GG.Framework.Installers.StaticsInstaller" preserve="all" />
+  </assembly>
+  <assembly fullname="Tayx.Graphy, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Tayx.Graphy.Advanced.G_AdvancedData" preserve="all" />
+    <type fullname="Tayx.Graphy.Audio.G_AudioGraph" preserve="all" />
+    <type fullname="Tayx.Graphy.Audio.G_AudioManager" preserve="all" />
+    <type fullname="Tayx.Graphy.Audio.G_AudioMonitor" preserve="all" />
+    <type fullname="Tayx.Graphy.Audio.G_AudioText" preserve="all" />
+    <type fullname="Tayx.Graphy.Fps.G_FpsGraph" preserve="all" />
+    <type fullname="Tayx.Graphy.Fps.G_FpsManager" preserve="all" />
+    <type fullname="Tayx.Graphy.Fps.G_FpsMonitor" preserve="all" />
+    <type fullname="Tayx.Graphy.Fps.G_FpsText" preserve="all" />
+    <type fullname="Tayx.Graphy.GraphyDebugger" preserve="all" />
+    <type fullname="Tayx.Graphy.GraphyManager" preserve="all" />
+    <type fullname="Tayx.Graphy.Ram.G_RamGraph" preserve="all" />
+    <type fullname="Tayx.Graphy.Ram.G_RamManager" preserve="all" />
+    <type fullname="Tayx.Graphy.Ram.G_RamMonitor" preserve="all" />
+    <type fullname="Tayx.Graphy.Ram.G_RamText" preserve="all" />
+    <type fullname="Tayx.Graphy.GraphyDebugger/DebugCondition" preserve="nothing" serialized="true" />
+    <type fullname="Tayx.Graphy.GraphyDebugger/DebugPacket" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReference" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshPro" preserve="all" />
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_Dropdown" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.TMP_InputField" preserve="all" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Animation" preserve="all" />
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.AnimatorOverrideController" preserve="all" />
+    <type fullname="UnityEngine.Avatar" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.Cubemap" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
+    <type fullname="UnityEngine.LineRenderer" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Rendering.SortingGroup" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
+    <type fullname="UnityEngine.RenderTexture" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Texture2DArray" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.SpriteMask" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.BaseInput" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.Physics2DRaycaster" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.PhysicsRaycaster" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
+    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.InputField" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.Shadow" preserve="all" />
+    <type fullname="UnityEngine.UI.Slider" preserve="all" />
+    <type fullname="UnityEngine.UI.Text" preserve="all" />
+    <type fullname="UnityEngine.UI.Toggle" preserve="all" />
+    <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/EndEditEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/OnChangeEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.InputField/SubmitEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasGroup" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="Zenject, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Zenject.SceneContext" preserve="all" />
+    <type fullname="Zenject.ZenjectStateMachineBehaviourAutoInjecter" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>

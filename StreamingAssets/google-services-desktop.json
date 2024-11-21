@@ -1,0 +1,200 @@
+{
+  "project_info": {
+    "project_number": "924456892467",
+    "project_id": "wo4x-9425a",
+    "storage_bucket": "wo4x-9425a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:ef8caf9152b3b733980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.dev1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:d05c42a580e4baa5980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.dev2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:afec7ad53311db4c980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.dev3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:e6ded5e6d0a7377d980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.dev4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:519bdf69f2ddfdc1980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.dev5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:af2e5dd91d3f662d980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.dev6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:c24b418a913748d9980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.devart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:b71509a92438f08d980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.preprod"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:e1e313772e242549980b46",
+        "android_client_info": {
+          "package_name": "com.gyreberg.wo.preupdate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924456892467:android:2b84387bd81d8c2e980b46",
+        "android_client_info": {
+          "package_name": "last.oasis.sandcity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt9CkUinGXmc3-mfH3CgU-V4soO0EljjM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,401 @@
+{
+    "clusters":
+    [
+        {
+            "name": "preprod",
+            "services":
+            {
+                "mapwss" :
+                {
+                    "protocol": "wss",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/webSocketProxy/ws",
+                    "realms" : false
+                },
+                "auth" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/auth"
+                },
+                "town" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/town",
+                    "realms" : false
+                },
+                "map" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/map",
+                    "realms" : false
+                },
+                "analytics" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/analytics"
+                },
+                "update" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/update"
+                },
+                "dev" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/dev",
+                    "realms" : false
+                },
+                "statics-cdn" :
+                {
+                    "protocol": "https",
+                    "host": "wo-cdn-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/statics"
+                },
+                "notifications" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/notifications"
+                },
+                "discord-logs" :
+                {
+                    "protocol": "https",
+                    "host": "discord.com",
+                    "uri": "0QMSC9EZBwQKERENFdHT1NTW2dPV29Xa19jZ0tXZ0tLX0RTU69X5ExIX1tXk/PAJ1Nrs6wTZ8ATwFuYTFPL2GBH0z+UVFu7a+Onu8w7kD9vrD/oV6+MM/PT4DukFFxoPCQPX8tkc"
+                },
+                "seq-events" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/seq-realm-1/#/events"
+                },
+                "materialized-views" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/mv"
+                },
+                "chat" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/chat"
+                }
+            }
+        },
+        {
+            "name": "preupdate",
+            "services":
+            {
+                "mapwss" :
+                {
+                    "protocol": "wss",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/webSocketProxy/ws",
+                    "realms" : false
+                },
+                "auth" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/auth"
+                },
+                "town" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/town",
+                    "realms" : false
+                },
+                "map" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/map",
+                    "realms" : false
+                },
+                "analytics" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/analytics"
+                },
+                "update" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/update"
+                },
+                "dev" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/dev",
+                    "realms" : false
+                },
+                "statics-cdn" :
+                {
+                    "protocol": "https",
+                    "host": "wo-cdn-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/statics"
+                },
+                "notifications" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/notifications"
+                },
+                "discord-logs" :
+                {
+                    "protocol": "https",
+                    "host": "discord.com",
+                    "uri": "0QMSC9EZBwQKERENFdHT1NTW2dPV29Xa19jZ0tXZ0tLX0RTU69X5ExIX1tXk/PAJ1Nrs6wTZ8ATwFuYTFPL2GBH0z+UVFu7a+Onu8w7kD9vrD/oV6+MM/PT4DukFFxoPCQPX8tkc"
+                },
+                "seq-events" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/seq-realm-1/#/events"
+                },
+                "materialized-views" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/mv"
+                },
+                "chat" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preupdate.gyreberg.com",
+                    "port": 443,
+                    "uri": "/chat"
+                }
+            }
+        },
+        {
+            "name": "production",
+            "serverConfigurationUrl": "https://wo-api.juicybuttons.com/update/update/getCluster",
+            "services":
+            {
+                "mapwss" :
+                {
+                    "protocol": "wss",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/mapws/ws",
+                    "realms" : false
+                },
+                "auth" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/auth"
+                },
+                "town" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/town",
+                    "realms" : false
+                },
+                "map" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/map",
+                    "realms" : false
+                },
+                "analytics" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/analytics"
+                },
+                "update" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/update"
+                },
+                "statics-cdn" :
+                {
+                    "protocol": "https",
+                    "host": "wo-cdn.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/statics"
+                },
+                "notifications" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/notifications"
+                },
+                "materialized-views" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/mv"
+                },
+                "chat" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api.juicybuttons.com",
+                    "port": 443,
+                    "uri": "/chat"
+                },
+                "discord-logs" :
+                {
+                    "protocol": "https",
+                    "host": "discord.com",
+                    "uri": "0QMSC9EZBwQKERENFdHT1NTW2dPV29Xa19jZ0tXZ0tLX0RTU69X5ExIX1tXk/PAJ1Nrs6wTZ8ATwFuYTFPL2GBH0z+UVFu7a+Onu8w7kD9vrD/oV6+MM/PT4DukFFxoPCQPX8tkc"
+                }
+            }
+        },
+        {
+            "name": "squads",
+            "services":
+            {
+                "mapwss" :
+                {
+                    "protocol": "wss",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/webSocketProxy/ws",
+                    "realms" : false,
+                    "multisquad" : true
+                },
+                "auth" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/auth",
+                    "multisquad" : true
+                },
+                "town" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/town",
+                    "realms" : false,
+                    "multisquad" : true
+                },
+                "map" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/map",
+                    "realms" : false,
+                    "multisquad" : true
+                },
+                "analytics" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/analytics",
+                    "multisquad" : true
+                },
+                "update" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/update",
+                    "multisquad" : true
+                },
+                "dev" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/dev",
+                    "realms" : false,
+                    "multisquad" : true
+                },
+                "statics-cdn" :
+                {
+                    "protocol": "https",
+                    "host": "wo-cdn-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/statics"
+                },
+                "notifications" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/notifications",
+                    "multisquad" : true
+                },
+                "discord-logs" :
+                {
+                    "protocol": "https",
+                    "host": "discord.com",
+                    "uri": "0QMSC9EZBwQKERENFdHT1NTW2dPV29Xa19jZ0tXZ0tLX0RTU69X5ExIX1tXk/PAJ1Nrs6wTZ8ATwFuYTFPL2GBH0z+UVFu7a+Onu8w7kD9vrD/oV6+MM/PT4DukFFxoPCQPX8tkc"
+                },
+                "seq-events" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-preprod.gyreberg.com",
+                    "port": 443,
+                    "uri": "/seq-realm-1/#/events"
+                },
+                "materialized-views" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/mv",
+                    "multisquad" : true
+                },
+                "chat" :
+                {
+                    "protocol": "https",
+                    "host": "wo-api-squads.gyreberg.com",
+                    "port": 443,
+                    "uri": "/chat",
+                    "multisquad" : true
+                },
+            }
+        }
+    ]
+}

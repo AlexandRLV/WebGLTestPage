@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Allocation Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .memory-usage {
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .controls {
+            margin-top: 20px;
+        }
+        input[type="number"] {
+            width: 100px;
+            padding: 5px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 5px 15px;
+            font-size: 1em;
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .progress-bar-fill {
+            width: 0;
+            height: 30px;
+            background-color: #4caf50;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<h1>Memory Allocation Test</h1>
+<p>Введите количество памяти для аллокации (в мегабайтах) и нажмите кнопку для выполнения аллокации. Массив будет заполнен случайными числами.</p>
+
+<div class="controls">
+    <input type="number" id="memory-size" placeholder="МБ" min="1" value="5">
+    <button onclick="allocateMemory()">Аллоцировать память</button>
+</div>
+
+<div class="progress-bar">
+    <div id="progress-bar-fill" class="progress-bar-fill">0%</div>
+</div>
+
+<div class="memory-usage">
+    <strong>Текущее использование памяти (по нашим подсчетам):</strong> <span id="memory-usage">0 MB</span><br>
+    <strong>Использование памяти по данным браузера:</strong> <span id="browser-memory-usage">Неподдерживается</span>
+</div>
+
+<script>
+    // Функция для форматирования размера в байтах в более удобочитаемый формат
+    function formatBytes(bytes) {
+        const units = ['B', 'KB', 'MB', 'GB', 'TB'];
+        let i = 0;
+        while (bytes >= 1024 && i < units.length - 1) {
+            bytes /= 1024;
+            i++;
+        }
+        return `${bytes.toFixed(2)} ${units[i]}`;
+    }
+
+    // Глобальная переменная для хранения общего количества аллоцированной памяти
+    let totalAllocatedMemoryMB = 0;
+
+    // Массив для хранения аллоцированных данных
+    let allocatedMemory = [];
+
+    function updateBrowserMemoryUsage() {
+        if (window.performance && window.performance.memory) {
+            const usedJSHeapSize = window.performance.memory.usedJSHeapSize;
+            const formattedMemoryUsage = formatBytes(usedJSHeapSize);
+            document.getElementById('browser-memory-usage').textContent = formattedMemoryUsage;
+        } else {
+            document.getElementById('browser-memory-usage').textContent = 'Неподдерживается';
+        }
+    }
+
+    async function allocateMemory() {
+        const memorySizeMB = parseInt(document.getElementById('memory-size').value);
+
+        if (isNaN(memorySizeMB) || memorySizeMB <= 0) {
+            alert('Пожалуйста, введите корректное количество мегабайт.');
+            return;
+        }
+
+        // Создаем массив для хранения случайных чисел
+        const numberOfElements = memorySizeMB * 1024 * 1024 / 4; // Количество 32-битных чисел
+        const buffer = new Float32Array(numberOfElements);
+
+        // Определяем шаг обновления прогресса в элементах (100 MB)
+        const stepSize = 100 * 1024 * 1024 / 4;
+
+        // Заполняем массив случайными числами с отображением прогресса
+        for (let i = 0; i < numberOfElements; i++) {
+            buffer[i] = Math.random();
+            
+            // Обновляем прогресс каждые 100 МБ
+            if (i % stepSize === 0 || i === numberOfElements - 1) {
+                const progress = (i / numberOfElements) * 100;
+                updateProgressBar(progress);
+                await new Promise(requestAnimationFrame);  // Отдаем управление браузеру для обновления интерфейса
+            }
+        }
+
+        // Сохраняем массив в глобальном массиве, чтобы избежать освобождения памяти
+        allocatedMemory.push(buffer);
+
+        // Обновляем общий объем аллоцированной памяти
+        totalAllocatedMemoryMB += memorySizeMB;
+
+        console.log(`Аллоцировано: ${memorySizeMB} MB. Всего аллоцировано: ${totalAllocatedMemoryMB} MB.`);
+        document.getElementById('memory-usage').textContent = `${totalAllocatedMemoryMB} MB`;
+
+        // Обновляем информацию о памяти, если это поддерживается браузером
+        updateBrowserMemoryUsage();
+    }
+
+    function updateProgressBar(progress) {
+        const progressBarFill = document.getElementById('progress-bar-fill');
+        progressBarFill.style.width = `${progress}%`;
+        progressBarFill.textContent = `${Math.round(progress)}%`;
+    }
+
+    // Первоначальная проверка поддержки и вывод информации о памяти
+    updateBrowserMemoryUsage();
+</script>
+</body>
+</html>
